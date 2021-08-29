@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(67,81,110);
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 7vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+
+  text-align: center;
+  line-height: 8vw;
+
+  padding: 0 9vw;
+  margin: 0;
+}
+
+.stopwatch {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 23px;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 35vw;
+  width: 35vw;
+
+  border: 2px solid;
+  border-radius: 30%;
+}
+
+.time {
+  font-family: "Courier New", monospace;
+  font-weight: 300;
+  font-size: 6.5vw;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+  width: 24.5vw;
+  
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+img {
+  height: 8.5vw;
+  width: 8.5vw;
+}
+
+#playButton {
+  display: block;
+}
+
+#pauseButton {
+  display: none;
+}
